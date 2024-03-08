@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kidney Tumor Detection</class>
+ <widget class="QMainWindow" name="Kidney Tumor Detection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>814</width>
+    <height>554</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kidney Tumor Detection</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>811</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/Images/background.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/Images/background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="upload_button">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>40</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>upload CT image</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="Title">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="plainText">
+     <string>Kidney Tumor Detection</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="preview">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>461</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="predict_button">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>350</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 127);</string>
+    </property>
+    <property name="text">
+     <string>Predict</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="result">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>350</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit_button">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>470</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
